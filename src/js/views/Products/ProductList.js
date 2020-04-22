@@ -8,7 +8,7 @@ export const ProductList = () => {
 	const [products, setProducts] = useState();
 	//setProducts({ contacts: storeProducts });
 	//setProducts(storeProducts);
-	console.log("products-->", storeProducts);
+
 	return (
 		<React.Fragment>
 			<div className="py-5">

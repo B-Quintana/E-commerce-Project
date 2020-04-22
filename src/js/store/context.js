@@ -5,11 +5,7 @@ const ProductContext = React.createContext();
 //Consumer
 
 export const ProductProvider = props => {
-	return (
-		<ProductContext.Provider value="Hello from context*****">
-			{props.children}
-		</ProductContext.Provider>
-	);
+	return <ProductContext.Provider value="Hello from context*****" />;
 };
 export const ProductConsumer = ProductContext.Consumer;
 //export {ProductProvider,ProductConsumer};
